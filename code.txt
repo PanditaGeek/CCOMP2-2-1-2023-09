@@ -1,0 +1,76 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Invoice {
+  private:
+    string number, description;
+    int quantity, price;
+    double TAX, discount;
+
+  public:
+
+Invoice(string _number,string _description, int _quantity, int _price, double _TAX = 0.20, double _discount = 0){
+  number = _number;
+  description = _description;
+  quantity = _quantity;
+  price = _price;
+  TAX = _TAX;
+  discount = _discount
+    
+}
+
+   string getNumber() {
+        return number;
+    }
+
+    void setNumber(string _number) {
+        number = _number;
+    }
+
+    string getDescription() {
+        return description;
+    }
+
+    void setDescription(string _description) {
+        description = _description;
+    } 
+
+    int getQuantity() {
+        return quantity;
+    }
+
+    void setQuantity(int _quantity) {
+        quantity = _quantity;
+    }
+
+    int getPrice() {
+        return quantity
+    }
+
+    void setPrice(int _price){
+      price = _price
+    }
+
+    double getTax(){
+        return TAX
+    }
+
+    void setTax(double _TAX){
+      TAX = _TAX
+    }
+
+    double getDiscount(){
+      return discount
+    }
+
+    void setDiscount(double _discount){
+      discount = _discount
+    }
+
+    getInvoiceAmount
+};
+
+int main() {
+  
+}
